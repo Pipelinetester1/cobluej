@@ -2,7 +2,7 @@
 
 = Awareness =
 
-Se podrá visualizar a los integrantes del proyecto que estan actualmente trabajando con el proyecto, pormedio de un panel en la posición derecha de la ventana principal.
+Se podrá visualizar a los integrantes del proyecto y sus estados actuales, por medio de un panel en la posición derecha de la ventana principal.
 
 Se integrará un *chat* dentro de la aplicación, permitiendo la libre discusión entre los integrantes del equipo. Todas las conversaciones realizadas en este chat serán guardadas en un historial de conversaciones.
 
@@ -11,3 +11,6 @@ En las ventanas de diseño, se podrá apreciar de forma gráfica el estado de un
 Al momento de editar una clase, se podra ver, mediante el uso de colores, el autor de los últimos cambios realizados por línea en cada clase. Adicionalmente se podra dejar notas en cada clase, estan notas será guardadas para su futura revision mediante un historial de las mismas.
 
 La aplicación guardará un historial de los proyectos, y proveerá un visor del mismo, este visor será más gráfico que el de edición de clase, permitiendo ver con exactitud los cambios realizados en un archivo, usando también colores para diferenciar la autoría de los cambios, con la particularidad de que cambiará el color de fondo de cada caracter modificado.
+
+== Metáforas ==
+  * *TODO:* Nombre de las notas que se dejaran por clase. 
