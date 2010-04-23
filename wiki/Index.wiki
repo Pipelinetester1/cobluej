@@ -13,5 +13,4 @@ Se pretende realizar un BlueJ  colaborativo, que tenga prestaciones para poder d
 
 = Details =
 
-  * Awareness
-
+  * [Awareness]
