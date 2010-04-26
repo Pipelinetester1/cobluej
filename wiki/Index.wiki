@@ -8,7 +8,7 @@ Se pretende realizar un BlueJ  colaborativo, que tenga prestaciones para poder d
 
 = Arquitectura =
 
-  * Descripción
+  * [BlueJ]
   * Modelo
 
 = Details =
