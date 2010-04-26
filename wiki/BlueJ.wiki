@@ -1,0 +1,13 @@
+#summary One-sentence summary of this page.
+
+= BlueJ =
+
+El proyecto [http://www.bluej.org BlueJ] será utilizado como base para esta versión colaborativa del mismo. Esta sección será utilizada para documentar los aspectos importantes de esta aplicación, son el objetivo de que sean la base para extenderla y agregarle capacidades colaborativas.
+
+= Sub Proyectos =
+
+== Boot ==
+Entre los subproyectos que maneja BlueJ, se encuentra *boot*, es un proyecto bastante pequeño, y su única utilidad es la de mostrar un _splash_ al inicio de una aplicación.
+
+=== Notas para el programador ===
+A pesar de ser un sub proyecto dentro del conjunto de proyectos que conforman BlueJ, su funcionamiento es algo inesperado, este proyecto es el encargado de iniciar la aplicación, pero lo hace mediante *Reflection*, el objetivo es evitar _referencias cíclicas_ entre *BlueJ* y *Boot*, ya que boot es una libreria requerida por el proyecto princical (BlueJ).
