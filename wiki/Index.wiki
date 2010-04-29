@@ -1,6 +1,6 @@
 #sidebar SideBar
 
-#summary One-sentence summary of this page.
+#summary Index for the entire project Wiki.
 
 = Introducción =
 
