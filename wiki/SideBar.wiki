@@ -1,5 +1,8 @@
-Project Documentation
+*Project Documentation:*
+
   * [Index]
   * [Awareness]
-Development Notes
+
+*Development Notes:*
+
   * [BlueJ]
