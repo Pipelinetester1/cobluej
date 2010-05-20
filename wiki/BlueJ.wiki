@@ -11,6 +11,9 @@ El proyecto [http://www.bluej.org BlueJ] será utilizado como base para esta ver
 == Boot ==
 Entre los subproyectos que maneja BlueJ, se encuentra *boot*, es un proyecto bastante pequeño, y su única utilidad es la de mostrar un _splash_ al inicio de una aplicación.
 
+= BlueJ Extensions =
+BlueJ expone un api que permite la creaci&oacute;n de extensiones. se puede encontrar [http://www.bluej.org/doc/writingextensions.html ejemplos] y la [http://www.bluej.org/doc/extensionsAPI/index.html documentaci&oacute;n] completa en la p&aacute;gina oficial de BlueJ.
+
 = Notas para el programador =
 A pesar de ser un sub proyecto dentro del conjunto de proyectos que conforman BlueJ, su funcionamiento es algo inesperado, este proyecto es el encargado de iniciar la aplicación, pero lo hace mediante *Reflection*, el objetivo es evitar _referencias cíclicas_ entre *BlueJ* y *Boot*, ya que boot es una libreria requerida por el proyecto princical (BlueJ).
 Personalmente creo que seria mejor evitar este proceso, Tomando en cuenta que se iniciará un nuevo proyecto que contenga las nuevas caracteríscas (cobluej) podríamos optar por usar _boot_ coo una libreria e instanciarla desde este nuevo proyecto.
@@ -20,3 +23,6 @@ Existe demasida dependencia encuanto a reflection, también se hace uso de libre
   * No cambiar nada en el código, cambiar los classpath de manera que se comporte como se espera originalmente, personalmente creo que esta opción es la mas rápida y fácil, pero no me agrada :(.
 
 Revisando más a fondo el resultado de la compilación del código original de bluej, pude notar que se crean varias librerias como resultado (bluej.jar, bluejcore.jar, bluejext.jar y bluejeditor.jar). Así que me inclino más por la opción de reutilizar estas librerias, y extenderlas usando un UI propio (posiblemente heredando classes de UI del bluej).
+
+Actualizaci&oacute;n:
+Al parecer el use del API que expone BlueJ para crear extensiones, es bastante completo y es una opci&oacute; viable para continuar con este proyecto. Lamentablemente al intentar usar o extender clases del propio BlueJ, me top&eaccute; varias veces con los mismos problemas de dependencias.
