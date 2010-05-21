@@ -27,4 +27,4 @@ Revisando más a fondo el resultado de la compilación del código original de b
 Actualizaci&oacute;n:
 Al parecer el use del API que expone BlueJ para crear extensiones, es bastante completo y es una opción viable para continuar con este proyecto. Lamentablemente al intentar usar o extender clases del propio BlueJ, me topé varias veces con los mismos problemas de dependencias.
 
-Sigue los problemas de dependencia? 
+Eliminar las dependencias sería la solución. Salvo ya hayas salvado esos obstáculos
