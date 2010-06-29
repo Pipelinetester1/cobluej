@@ -6,3 +6,4 @@
 *Development Notes:*
 
   * [BlueJ]
+  * [SVNKit]
